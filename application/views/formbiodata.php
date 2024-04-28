@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Biodata</title>
+    <link rel="stylesheet" href="assets/css/form.css">
     <style>
         * {
             box-sizing: border-box;
@@ -61,6 +62,10 @@
     </style>
 </head>
 <body>
+<header class="header">
+    <a class="navbar-brand" href="<?php echo Base_url(); ?>Home">
+          <img src="assets/img/back.png" align="left" height="40px" class="main-logo main-logo-putih"></a>
+    </header>
     <div class="container">
         <h2>Form Biodata Mahasiswa</h2>
         <form action="<?php echo base_url('biodata/tampil'); ?>" method="POST">
